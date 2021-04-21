@@ -30,6 +30,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "price": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "location": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
     }
   }
 }
