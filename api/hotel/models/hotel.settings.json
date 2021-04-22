@@ -20,17 +20,6 @@
     "description": {
       "type": "text"
     },
-    "image": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "price": {
       "type": "integer"
     },
@@ -41,6 +30,9 @@
       "type": "string"
     },
     "adress": {
+      "type": "string"
+    },
+    "image": {
       "type": "string"
     }
   }
