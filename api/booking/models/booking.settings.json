@@ -20,14 +20,17 @@
     "nights": {
       "type": "integer"
     },
-    "Persons": {
-      "type": "integer"
-    },
     "hotel_name": {
       "type": "string"
     },
     "price": {
       "type": "biginteger"
+    },
+    "adults": {
+      "type": "integer"
+    },
+    "children": {
+      "type": "integer"
     }
   }
 }
